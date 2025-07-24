@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player:Music for everyone</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_circle_down" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_control_key" />
+    <!-- <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_circle" /> -->
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option  nav-option">
+                        <img src="library_icon.png" alt="Lib">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first Playlist</p>
+                        <p class="box-p2">It's easy, we will help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find Some Podcast to Follow</p>
+                        <p class="box-p2">We'll keep you Updated on New episodes</p>
+                        <button class="badge">Browse Podcast</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="main-content">
+
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./backward_icon copy.jpg" alt="Back">
+                    <img src="./forward_icon.jpg" class="hide" alt="Forward">
+                </div>
+                <div class="sticky-nav-download">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install
+                        App</button>
+                    <i class="fa-solid fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" alt="img" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of most played...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./Pusha T and No malice.jpeg" alt="img" class="card-img">
+                    <p class="card-title">Let God Sort Em Out</p>
+                    <p class="card-info">Listen Pusha T and Malice Album </p>
+                </div>
+                <div class="card">
+                    <img src="./travis scott.jpeg" alt="img" class="card-img">
+                    <p class="card-title">JACKBOYS - 2</p>
+                    <p class="card-info">Listen the new 2025 Album of Travis Scott </p>
+                </div>
+                <div class="card">
+                    <img src="./Kendrick Lamar.jpeg" alt="img" class="card-img">
+                    <p class="card-title">Mr. Morale & the Big Steppers</p>
+                    <p class="card-info">Listen the Album of K-DOT</p>
+                </div>
+                <div class="card">
+                    <img src="./card3img.jpeg" alt="img" class="card-img">
+                    <p class="card-title"> Old Melodies of India </p>
+                    <p class="card-info"> Listen the old Melodies of India </p>
+                </div>
+                <div class="card">
+                    <img src="./Frank ocean.jpg" alt="img" class="card-img">
+                    <p class="card-title">Oranges</p>
+                    <p class="card-info">Listen the very Lovely singer all of the time</p>
+                </div>
+                <div class="card">
+                    <img src="./don't tap the glass.jpg" alt="img" class="card-img">
+                    <p class="card-title">Don't tap the glass</p>
+                    <p class="card-info">Listen the tyler,the creator new Album</p>
+                </div>
+            </div>
+            <h2>Featured charts</h2>
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="./card5img.jpeg" alt="img" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./card6img.jpeg" alt="img" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your daily updates of most played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album-player">
+                <img src="./travis scott.jpeg" alt="travis" class="album">
+                <span class="material-symbols-outlined hide">
+                    keyboard_control_key
+                </span>
+                <div class="links">
+                    <a href="#" class="song song-name">Dumbo</a>
+                    <br>
+                    <a href="#" class="song artist">Travis Scott</a>
+                </div>
+                <div class="icy">
+                    <i class="fa-solid fa-plus" title="Wow you are Saving "></i>
+                    <i class="fa-solid fa-heart heart" title="You Liked this Song"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+
+                    <img src="./player_icon1.png" alt="icon" class="player-control-icon">
+                    <img src="./player_icon2.png" alt="icon" class="player-control-icon">
+                    <img src="./player_icon3.png" alt="icon" class="player-control-icon play"
+                        style="opacity: 1;height:2rem;width: 2rem;">
+                    <img src="./player_icon4.png" alt="icon" class="player-control-icon">
+                    <img src="./player_icon5.png" alt="icon" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span>0:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span>3:33</span>
+                </div>
+
+            </div>
+            <div class="side-controls">
+
+                <i class="fa-solid fa-play"
+                    style="border: 2px solid white;padding:0.6rem 0.2rem;font-size:0.4rem;text-align:center;border-radius:0.2rem;"
+                    class="spo-icon"></i>
+                <i class="fa-solid fa-microphone" class="spo-icon"></i>
+                <i class="fa-solid fa-bars" class="spo-icon"></i>
+                <i class="material-icons" class="spo-icon">connected_tv</i>
+
+
+                <i class="fa-solid fa-volume-up" class="spo-icon"></i>
+                <input type="range" class="spo-range" min="0" max="100" step="1" class="spo-range">
+                <i class="fa-solid fa-up-right-and-down-left-from-center" class="spo-icon"></i>
+                <!-- newer version -->
+                <i class="fa-solid fa-expand" class="spo-icon"></i>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
